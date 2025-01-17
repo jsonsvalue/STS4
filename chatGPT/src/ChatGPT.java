@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 public class ChatGPT {
 	
-	private static String GPT_URL = "https://api.openai.com/v1/chat/completions";
+   private static String GPT_URL = "https://api.openai.com/v1/chat/completions";
 
    public static void main(String[] args) throws IOException {
       URL url = new URL(GPT_URL);
